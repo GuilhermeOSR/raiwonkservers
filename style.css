@@ -1,0 +1,117 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+body {
+    background: #ccc;
+}
+
+.container {
+
+    margin: 2% auto;
+
+}
+
+.cards {
+    display: grid;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 1rem;
+    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid black;
+    
+}
+
+.card {
+    width: 60%;
+    border-radius: 15px;
+}
+
+.text-card {
+    width: 100%;
+    max-height: 20vh;
+    background-color: #fff;
+    font-size: 2rem;
+    display: flex;
+    border-radius: 0px 0px 15px 15px;
+
+}
+
+.text-card h2 {
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    text-align: center;
+    font-size: 2.2rem;
+    padding: 1rem;
+
+}
+
+.text-card .info {
+    width: 100%;
+    max-height: 20vh;
+    background-color: #fff;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+
+    border-radius: 0px 0px 15px 15px;
+    
+}
+
+.text-card p {
+    font-size: 1.5rem;
+    width: 100%;
+
+}
+
+.text-card .info .lado1{
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;    
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+
+}
+
+.text-card .info .lado2{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+img {
+    margin-top: 1rem;
+    max-width: 100%;
+    border-radius: 15px 15px 0px 0px;
+
+   
+}
+
